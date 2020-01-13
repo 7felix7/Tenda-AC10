@@ -1,0 +1,1 @@
+cmd_arch/mips-ori/lib/built-in.o :=  msdk-linux-ld  -m elf32ltsmip   -r -o arch/mips-ori/lib/built-in.o arch/mips-ori/lib/iomap.o arch/mips-ori/lib/dump_tlb.o arch/mips-ori/lib/ashldi3.o arch/mips-ori/lib/ashrdi3.o arch/mips-ori/lib/cmpdi2.o arch/mips-ori/lib/lshrdi3.o arch/mips-ori/lib/ucmpdi2.o 

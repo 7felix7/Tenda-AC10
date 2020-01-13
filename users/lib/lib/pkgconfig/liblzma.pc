@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/mnt/RTK/lost+found/rtl819x-SDK-v3.4.11C-full-package/rtl819x/users/lib
+exec_prefix=/mnt/RTK/lost+found/rtl819x-SDK-v3.4.11C-full-package/rtl819x/users/lib
+libdir=/mnt/RTK/lost+found/rtl819x-SDK-v3.4.11C-full-package/rtl819x/users/lib/lib
+includedir=/mnt/RTK/lost+found/rtl819x-SDK-v3.4.11C-full-package/rtl819x/users/lib/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: http://tukaani.org/xz/
+Version: 5.0.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread 
